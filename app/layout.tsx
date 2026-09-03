@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"MoneyFlow",description:"Track. Plan. Prosper."}; export default function RootLayout({children}:{children:React.ReactNode}){return <html><body>{children}</body></html>}

@@ -1,0 +1,1 @@
+import Link from "next/link"; import SignupForm from "../../components/SignupForm"; export default function Page(){return <main className="shell"><div className="form"><div className="logo">Money<span>Flow</span></div><h1>Create your account</h1><SignupForm/><p className="muted">Already registered? <Link href="/login">Log in</Link></p></div></main>}
